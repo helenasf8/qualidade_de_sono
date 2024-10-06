@@ -1,0 +1,112 @@
+/*geral*/
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+body {
+    margin: 10px 50px 100px 50px;
+    font-family: "Prata", serif;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+}
+p {
+    font-size: 18px;
+}
+/*header*/
+header {
+    margin-bottom: 50px;
+}
+header div.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+}
+header div#banner {
+    text-align: center;
+}
+.menu img {
+    padding-bottom: 10px;
+}
+.menu nav ul {
+    display: flex;
+}
+.menu nav ul li {
+    padding: 50px 15px 0 15px;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.headerpt2 {
+    text-align: center;
+    border-bottom: 2px solid rgb(153, 150, 150);
+    margin: 0 10vw 0 10vw;
+}
+.headerpt2 h1 {
+    padding: 80px 0 25px 0;
+    font-size: 36px;
+}
+.headerpt2 p:last-child {
+    padding: 30px 0 70px 0;
+}
+.headerpt2 a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(36, 79, 134);
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    border-radius: 25px;
+}
+/*conteudo*/
+section {
+    margin: 0 5vw 5vw 5vw;
+    border-bottom: 2px solid rgb(153, 150, 150);
+}
+section h2 {
+    text-align: center;
+    margin: 90px 0 80px 0;
+    font-size: 32px;
+}
+section h3 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+section p#pconteudo {
+    margin-bottom: 40px;
+}
+.conteudo {
+    display: flex;
+    margin-bottom: 80px;
+}
+.lista-conteudo {
+    max-width: 50vw;
+    margin-right: 10vw;
+}
+.lista-conteudo ol li {
+    padding-bottom: 30px;
+}
+.lista-conteudo span {
+    color: rgb(36, 79, 134);
+    font-weight: bold;
+}
+.lista-conteudo h4 {
+    font-size: 20px;
+}
+/*footer*/
+footer {
+    text-align: center;
+}
+footer p {
+    font-family: none;
+    font-size: 14px;
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+footer ul li p{
+    font-size: 35px;
+    padding: 0 15px 0 15px;
+}
+a {
+    color: black;
+}
