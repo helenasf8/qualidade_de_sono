@@ -55,9 +55,9 @@ header div#banner {
     font-weight: bold;
     border-radius: 25px;
 }
-/*conteudo*/
+/*conteudo-INDEX*/
 section {
-    margin: 0 5vw 5vw 5vw;
+    margin: 0 7vw 7vw 5vw;
     border-bottom: 2px solid rgb(153, 150, 150);
 }
 section h2 {
@@ -90,6 +90,21 @@ section p#pconteudo {
 .lista-conteudo h4 {
     font-size: 20px;
 }
+/*conteudo-IMPORTANCIA*/
+.section-importancia {
+   
+}
+.section-importancia p {
+    padding: 15px 0 15px 0;
+    font-size: 20px;
+}
+/*conteudo-QUESTIONARIO*/
+.questionario p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+/*conteudo-ROTINA*/
+
 /*footer*/
 footer {
     text-align: center;
