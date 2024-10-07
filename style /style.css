@@ -1,13 +1,12 @@
 /*geral*/
-@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 body {
-    margin: 10px 50px 100px 50px;
-    font-family: "Prata", serif;
+    margin: 1vw 8vw 3vw 8vw;
+    font-family: "Afacad Flux", sans-serif;
     line-height: 1.5em;
     letter-spacing: 0.5px;
-}
-p {
-    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 79, 134);
 }
 /*header*/
 header {
@@ -16,24 +15,29 @@ header {
 header div.menu {
     display: flex;
     justify-content: space-between;
-    margin: 0 30px 0 30px;
+    margin: 0 5vw 0 5vw;
+    background-color: rgb(36, 79, 134);
+    border-radius: 25px;
 }
 header div#banner {
     text-align: center;
 }
 .menu img {
-    padding-bottom: 10px;
+    height: 5vw;
+    width: 7vw;
 }
 .menu nav ul {
     display: flex;
+    margin: 0 2vw 0 0;
 }
 .menu nav ul li {
-    padding: 50px 15px 0 15px;
+    padding: 35px 15px 25px 15px;
 }
 .menu nav ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(252, 253, 255);
     font-size: 20px;
+    font-weight: 500;
 }
 .headerpt2 {
     text-align: center;
@@ -41,11 +45,14 @@ header div#banner {
     margin: 0 10vw 0 10vw;
 }
 .headerpt2 h1 {
-    padding: 80px 0 25px 0;
-    font-size: 36px;
+    padding: 120px 0 50px 0;
+    font-size: 5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(155, 152, 152);
 }
 .headerpt2 p:last-child {
     padding: 30px 0 70px 0;
+    font-size: 25px;
 }
 .headerpt2 a {
     text-decoration: none;
@@ -55,73 +62,8 @@ header div#banner {
     font-weight: bold;
     border-radius: 25px;
 }
-/*conteudo-INDEX*/
-section {
-    margin: 0 7vw 7vw 5vw;
-    border-bottom: 2px solid rgb(153, 150, 150);
+.headerpt2 p {
+    font-size: 30px;
+    margin-bottom: 12px;
 }
-section h2 {
-    text-align: center;
-    margin: 90px 0 80px 0;
-    font-size: 32px;
-}
-section h3 {
-    font-size: 24px;
-    margin-bottom: 40px;
-}
-section p#pconteudo {
-    margin-bottom: 40px;
-}
-.conteudo {
-    display: flex;
-    margin-bottom: 80px;
-}
-.lista-conteudo {
-    max-width: 50vw;
-    margin-right: 10vw;
-}
-.lista-conteudo ol li {
-    padding-bottom: 30px;
-}
-.lista-conteudo span {
-    color: rgb(36, 79, 134);
-    font-weight: bold;
-}
-.lista-conteudo h4 {
-    font-size: 20px;
-}
-/*conteudo-IMPORTANCIA*/
-.section-importancia {
-   
-}
-.section-importancia p {
-    padding: 15px 0 15px 0;
-    font-size: 20px;
-}
-/*conteudo-QUESTIONARIO*/
-.questionario p {
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-/*conteudo-ROTINA*/
-
-/*footer*/
-footer {
-    text-align: center;
-}
-footer p {
-    font-family: none;
-    font-size: 14px;
-}
-footer ul {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-footer ul li p{
-    font-size: 35px;
-    padding: 0 15px 0 15px;
-}
-a {
-    color: black;
-}
+/*meio-index*/
