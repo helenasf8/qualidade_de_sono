@@ -1,26 +1,20 @@
 /*geral*/
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 body {
-    margin: 1vw 8vw 3vw 8vw;
+    margin: 1vw 8vw 5vw 8vw;
     font-family: "Afacad Flux", sans-serif;
     line-height: 1.5em;
     letter-spacing: 0.5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 248, 248);
     color: rgb(36, 79, 134);
 }
-/*header*/
-header {
-    margin-bottom: 50px;
-}
+/*header-index/geral*/
 header div.menu {
     display: flex;
     justify-content: space-between;
     margin: 0 5vw 0 5vw;
     background-color: rgb(36, 79, 134);
     border-radius: 25px;
-}
-header div#banner {
-    text-align: center;
 }
 .menu img {
     height: 5vw;
@@ -41,8 +35,13 @@ header div#banner {
 }
 .headerpt2 {
     text-align: center;
-    border-bottom: 2px solid rgb(153, 150, 150);
-    margin: 0 10vw 0 10vw;
+    padding-bottom: 3vw;
+    margin-top: 1vw;
+}
+body div#borda-conteudo {
+    border-bottom: 2px solid #ddd8d8;
+    max-width: 70vw;
+    margin: 0 0 8vw 6vw;
 }
 .headerpt2 h1 {
     padding: 120px 0 50px 0;
@@ -50,7 +49,7 @@ header div#banner {
     font-weight: 500;
     text-shadow: 1px 1px 2px rgb(155, 152, 152);
 }
-.headerpt2 p:last-child {
+.headerpt2 p#saiba-mais {
     padding: 30px 0 70px 0;
     font-size: 25px;
 }
@@ -63,7 +62,111 @@ header div#banner {
     border-radius: 25px;
 }
 .headerpt2 p {
-    font-size: 30px;
+    font-size: 2.5rem;
     margin-bottom: 12px;
 }
 /*meio-index*/
+.section-index #borda-conteudo { 
+    border-bottom: 2px solid #ddd8d8;
+    max-width: 70vw;
+    margin: 6vw 0 7vw 6vw;
+}
+h2#h2-1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(155, 152, 152);
+}
+.section-index h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 40px 0 50px 0;
+}
+.lista-conteudo ul {
+    margin: 0 6vw 6vw 6vw;
+}
+.lista-conteudo ul li {
+    background-color: #e9e8ec;
+    padding: 40px 60px 40px 60px;
+    line-height: 2.2em;
+    border-radius: 25px;
+    margin-bottom: 3.5vw;
+}
+.lista-conteudo ul li p span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.lista-conteudo ul li p {
+    font-size: 1.8rem;
+}
+.lista-conteudo ul #right {
+    margin-left: 15vw;
+}
+.lista-conteudo ul #left {
+    margin-right: 15vw;
+}
+.conteudo h4 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0 8vw 0 8vw;
+}
+.conteudo img {
+    margin: 2vw 0 0 25vw;
+    height: 30vw;
+    width: 30vw;
+}
+/*meio-importancia*/
+.section1-importancia {
+    font-size: 1.8rem;
+    line-height: 1.1em;
+}
+.section1-importancia h2 {
+    margin-bottom: 4vw;
+}
+.section1-importancia .caixa1 {
+    background-color: #efeff0;
+    padding: 3.5vw 3vw 2vw 3vw;
+    border-radius: 20px;
+    display: flex;
+    margin-bottom: 3vw;
+}
+.section1-importancia .caixa2 {
+    background-color: #efeff0;
+    padding: 3.5vw 3vw 2vw 3vw;
+    border-radius: 20px;
+    text-align: right;
+}
+.section1-importancia .caixa1 .p-importancia p {
+    padding: 0 0 35px 0;
+}
+.p-importancia span {
+    font-weight: bold;
+}
+.img-importancia img {
+    height: 30vw;
+    width: 30vw;
+    margin-top: 2.5vw;
+}
+.caixa2 p 
+
+/*footer*/
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #0a0924;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer li {
+    padding: 0 20px 30px 20px;
+    font-size: 2vw;
+    color: #0a0924;
+}
+footer a {
+    color: #0a0924;
+}
