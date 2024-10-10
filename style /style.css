@@ -8,6 +8,11 @@ body {
     background-color: rgb(248, 248, 248);
     color: rgb(36, 79, 134);
 }
+body div#borda-conteudo {
+    border-bottom: 2px solid #ddd8d8;
+    max-width: 70vw;
+    margin: 0 0 5vw 6vw;
+}
 /*header-index/geral*/
 header div.menu {
     display: flex;
@@ -16,9 +21,16 @@ header div.menu {
     background-color: rgb(36, 79, 134);
     border-radius: 25px;
 }
+#h2-1 {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgb(155, 152, 152);
+}
 .menu img {
-    height: 5vw;
-    width: 7vw;
+    height: 3.7vw;
+    width: 6vw;
+    margin: 10px 0 0 20px;
 }
 .menu nav ul {
     display: flex;
@@ -37,11 +49,6 @@ header div.menu {
     text-align: center;
     padding-bottom: 3vw;
     margin-top: 1vw;
-}
-body div#borda-conteudo {
-    border-bottom: 2px solid #ddd8d8;
-    max-width: 70vw;
-    margin: 0 0 5vw 6vw;
 }
 .headerpt2 h1 {
     padding: 120px 0 50px 0;
@@ -66,17 +73,6 @@ body div#borda-conteudo {
     margin-bottom: 12px;
 }
 /*meio-index*/
-.section-index #borda-conteudo { 
-    border-bottom: 2px solid #ddd8d8;
-    max-width: 70vw;
-    margin: 6vw 0 7vw 6vw;
-}
-#h2-1 {
-    text-align: center;
-    font-size: 3.5rem;
-    font-weight: 500;
-    text-shadow: 1px 1px 2px rgb(155, 152, 152);
-}
 .section-index h3 {
     text-align: center;
     font-size: 2rem;
@@ -84,7 +80,7 @@ body div#borda-conteudo {
     padding: 40px 0 50px 0;
 }
 .lista-conteudo ul {
-    margin: 0 6vw 6vw 6vw;
+    margin: 0 6vw 4vw 6vw;
 }
 .lista-conteudo ul li {
     background-color: #d8d7da;
@@ -106,17 +102,17 @@ body div#borda-conteudo {
 .lista-conteudo ul #left {
     margin-right: 15vw;
 }
-.conteudo h4 {
+.conteudo img {
+    margin: 2vw 0 6vw 25vw;
+    height: 30vw;
+    width: 30vw;
+}
+#frase-final {
     text-align: center;
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 1em;
     margin: 0 8vw 0 8vw;
-}
-.conteudo img {
-    margin: 2vw 0 0 25vw;
-    height: 30vw;
-    width: 30vw;
 }
 /*meio-importancia*/
 .section1-importancia {
@@ -131,7 +127,7 @@ body div#borda-conteudo {
     padding: 3.5vw 3vw 1vw 3vw;
     border-radius: 20px;
     display: flex;
-    margin-bottom: 4vw;
+    margin-bottom: 5vw;
 }
 .section1-importancia .caixa2 {
     background-color: #d8d7da;
@@ -155,7 +151,50 @@ body div#borda-conteudo {
     width: 30vw;
     margin: 0 2vw 1vw 0;
 }
-
+#frase-importancia {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 5vw 8vw 6vw 8vw;
+}
+/*meio-doenças*/
+.section-doenças h2 {
+    margin-bottom: 3vw;
+}
+.section-doenças ul {
+    display: flex;
+}
+.section-doenças ul li {
+    background-color: #d8d7da;
+    margin: 2vw;
+    text-align: center;
+    padding: 2vw 2vw 2vw 2vw;
+    border-radius: 20px;
+}
+.section-doenças ul li h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 2vw;
+}
+.section-doenças ul li p {
+    font-size: 1.8rem;
+    line-height: 1.1em;
+}
+.section-doenças span {
+    font-weight: bold;
+}
+#frase-doenças {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1em;
+    margin: 2vw 0 1vw 0;
+}
+.section-doenças {
+    text-align: center;
+    margin-bottom: 2vw;
+}
 /*footer*/
 footer {
     text-align: center;
