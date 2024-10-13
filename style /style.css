@@ -213,19 +213,22 @@ header div.menu {
     line-height: 1em;
 }
 .section-rotina ul li {
-    padding: 3vw 4vw 3vw 4vw;
+    padding: 2vw 3vw 2vw 3vw;
     background-color: #d8d7da;
     border-radius: 20px;
-    margin: 2vw 4vw 4vw 4vw;
+    margin: 2vw 4vw 3vw 4vw;
 }
 .section-rotina ul li p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1.1em;
 }
 .section-rotina ul li h4 {
     font-weight: bold;
-    font-size: 2.5rem;
-    padding: 0 0 20px 50px;
+    font-size: 2rem;
+    padding: 0 0 10px 50px;
+}
+.section-rotina ul li span {
+    font-weight: 400;
 }
 #frase-rotina {
     text-align: center;
