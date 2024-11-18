@@ -1,12 +1,14 @@
 /*geral*/
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 body {
-    margin: 1vw 8vw 5vw 8vw;
     font-family: "Afacad Flux", sans-serif;
     line-height: 1.5em;
     letter-spacing: 0.5px;
     background-color: rgb(248, 248, 248);
     color: #244f86;
+}
+main, header {
+    margin: 1vw 8vw 5vw 8vw;
 }
 body div#borda-conteudo {
     border-bottom: 2px solid #ddd8d8;
@@ -120,7 +122,7 @@ header div.menu {
     margin-right: 15vw;
 }
 .conteudo img {
-    margin: 2vw 0 6vw 25vw;
+    margin: 2vw 0 0 25vw;
     height: 30vw;
     width: 30vw;
 }
@@ -166,7 +168,7 @@ header div.menu {
 .img-importancia img {
     height: 30vw;
     width: 30vw;
-    margin: 0 2vw 1vw 0;
+    margin: 0 0 1vw 0;
 }
 #frase-importancia {
     text-align: center;
@@ -249,7 +251,7 @@ header div.menu {
     margin: 4vw 0 0 0;
 }
 .section-rotina img {
-    margin: 3vw 0 5vw 17vw;
+    margin: 3vw 0 5vw 22vw;
 }
 /*meio-questionario*/
 .questionario {
@@ -329,27 +331,20 @@ header div.menu {
 /*footer*/
 footer {
     text-align: center;
-    font-size: 1.5rem;
-    color: #0a0924;
+    color: white;
+    background-color: #244f86;
+    background: linear-gradient(top, white);
+    padding: 5vw;
+}
+footer a {
+    color: white;
+    text-decoration: none;
 }
 footer nav ul {
     display: flex;
     justify-content: center;
 }
-footer li {
-    padding: 0 20px 30px 20px;
-    font-size: 2vw;
-    color: #0a0924;
+footer nav ul li a {
+    color: white;
 }
-footer a {
-    color: #0a0924;
-}
-footer h6,
-#copy {
-    color: #244f86;
-    font-weight: bold;
-}
-footer p {
-    padding: 10px 0 10px 0;
-    margin: 0 20vw 0 20vw;
-}
+
