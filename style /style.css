@@ -13,7 +13,7 @@ main, header {
 body div#borda-conteudo {
     border-bottom: 2px solid #ddd8d8;
     max-width: 70vw;
-    margin: 0 0 5vw 6vw;
+    margin: 0 0 5vw 15vw;
 }
 /*header-index/geral*/
 header div.menu {
@@ -60,7 +60,7 @@ header div.menu {
 }
 .headerpt2 {
     text-align: center;
-    padding-bottom: 3vw;
+    padding-bottom: 1vw;
     margin-top: 1vw;
 }
 .headerpt2 h1 {
@@ -251,7 +251,7 @@ header div.menu {
     margin: 4vw 0 0 0;
 }
 .section-rotina img {
-    margin: 3vw 0 5vw 22vw;
+    margin: 3vw 0 0 22vw;
 }
 /*meio-questionario*/
 .questionario {
@@ -332,13 +332,21 @@ header div.menu {
 footer {
     text-align: center;
     color: white;
-    background-color: #244f86;
-    background: linear-gradient(top, white);
+    background-color: rgb(36, 79, 134);
     padding: 5vw;
+    font-size: 1.2em;
 }
 footer a {
     color: white;
     text-decoration: none;
+}
+footer nav.social-midia a {
+    padding: 10px 16px 9px 16px;
+    background-color: white;
+    border-radius: 100%;
+    color: #244f86;
+    font-size: 1.5em;
+    margin: 0 15px 0 15px;
 }
 footer nav ul {
     display: flex;
@@ -347,4 +355,14 @@ footer nav ul {
 footer nav ul li a {
     color: white;
 }
-
+footer div.links-footer {
+    display: flex;
+    justify-content: center;
+    margin: 35px 0 10px 0;
+}
+footer div.links-footer p {
+    margin: 0 5px 0 5px;
+}
+#ponto {
+    color: #d0e0f5;
+}
