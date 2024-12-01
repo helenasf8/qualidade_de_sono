@@ -251,7 +251,7 @@ header div.menu {
     margin: 4vw 0 0 0;
 }
 .section-rotina img {
-    margin: 3vw 0 0 22vw;
+    margin: 3vw 0 0 19vw;
 }
 /*meio-questionario*/
 .questionario {
@@ -327,6 +327,45 @@ header div.menu {
 }
 .submit-button input:hover {
     color: #97beee;
+}
+/*sobre nos*/
+.sobre-nos h2 {
+    margin-bottom: 6vw;
+}
+.sobre-nos ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sobre-nos li {
+    margin: 0 2vw 4vw 2vw;
+    text-align: center;
+}
+.sobre-nos ul li h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1.5vw;
+}
+.sobre-nos img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    border: 5px solid #7d95b6;
+}
+/*ref*/
+.ref {
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 8vw;
+}
+.ref h2 {
+    margin-bottom: 5vw;
+}
+.ref p {
+    margin-bottom: 1.5vw;
+}
+.ref p a {
+    color: #244f86;
 }
 /*footer*/
 footer {
