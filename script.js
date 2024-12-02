@@ -60,7 +60,7 @@ form.addEventListener("click", (e) => {
     let horaideal = hradorme - 1;
 
     if (hratela > horaideal || hratelaminuto > 0) {
-        tela.innerHTML = `Você precisa parar de usar telas pelo menos 1 hora antes antes de dormir!`;
+        tela.innerHTML = `Você precisa parar de usar telas pelo menos 1 hora antes de dormir!`;
     }
    
 })
