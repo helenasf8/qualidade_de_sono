@@ -1,5 +1,6 @@
 /*geral*/
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
 body {
     font-family: "Afacad Flux", sans-serif;
     line-height: 1.5em;
@@ -423,4 +424,13 @@ footer div.links-footer p {
 }
 #ponto {
     color: #d0e0f5;
+}
+
+
+/* Media Query*/
+@media (max-width: 600px) {
+    header div.menu, header div.menu nav ul{
+        display: block;
+        text-align: center;
+  }
 }
