@@ -13,7 +13,7 @@ main, header {
 body div#borda-conteudo {
     border-bottom: 2px solid #ddd8d8;
     max-width: 70vw;
-    margin: 0 0 5vw 15vw;
+    margin: 0 0 5vw 14.5vw;
 }
 /*header-index/geral*/
 header div.menu {

@@ -6,7 +6,7 @@
     <title>Bom Sono</title>
     <link rel="stylesheet" href="style /reset.css">
     <link rel="stylesheet" href="style /style.css">
-    <script src="script.js"></script>
+
     <script src="https://kit.fontawesome.com/b0aef7f4ba.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -27,33 +27,33 @@
     <main>
         <section class="questionario">
             <div class="form">
-                <form id="form" action="#">
+                <form action="#">
                     <div class="input-group">
                         <div class="input-box">
                             <label for="horariodedormir">Que horas você vai dormir?</label>
-                            <input id="horariodedormir" name="horariodedormir" required>
+                            <input type="time" id="horariodedormir" name="horariodedormir" >
                         </div>
                         <div class="input-box">
                             <label for="horariotelas">Que horas você deixa de usar telas?</label>
-                            <input id="horariotelas" name="horariotelas" required>
+                            <input type="time" id="horariotelas" name="horariotelas" >
                         </div>
                         <div class="input-box">
                             <label for="horarioacordar">Que horas você acorda?</label>
-                            <input id="horarioacordar" name="horarioacordar" required>
+                            <input type="time" id="horarioacordar" name="horarioacordar" >
                         </div>
                         <div class="input-box">
                             <label for="inputemail">E-mail para contato:</label>
-                            <input type="email" id="inputemail" name="inputemail" required>
+                            <input type="email" id="inputemail" name="inputemail" >
                         </div>
                         <div class="input-box">
                             <label for="medicamentos"> Você toma algum medicamento para o sono ou algum tipo de bebida?
                                 Se sim, qual?</label>
-                            <input type="text" id="medicamentos" name="medicamentos required" required>
+                            <input type="text" id="medicamentos" name="medicamentos required" >
                         </div>
                         <div class="input-box">
                             <label for="tecnicas">Você utiliza alguma técnica de meditação, reflexão, leitura ou
                                 outro(s) antes de dormir? Se sim, qual?</label>
-                            <input type="text" id="tecnicas" name="tecnicas" required>
+                            <input type="text" id="tecnicas" name="tecnicas" >
                         </div>
                     </div>
                     <div class="gender-inputs">
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="submit-button">
-                        <input onclick="hora()" type="submit" value="Enviar">
+                        <input id="form"  type="submit" value="Enviar">
                     </div>
                     <div id="res"></div>
                     <div id="tela"></div>
@@ -108,5 +108,7 @@
         </div>
         <p class="copis">Copyright ©2024 All rights reserved </p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
