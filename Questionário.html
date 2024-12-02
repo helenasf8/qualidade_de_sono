@@ -27,22 +27,22 @@
     <main>
         <section class="questionario">
             <div class="form">
-                <form action="#">
+                <form id="form" action="#">
                     <div class="input-group">
                         <div class="input-box">
-                            <label for="horariodedormir">Qual horário você vai dormir?</label>
-                            <input type="time" id="horariodedormir" name="horariodedormir" required>
+                            <label for="horariodedormir">Que horas você vai dormir?</label>
+                            <input id="horariodedormir" name="horariodedormir" required>
                         </div>
                         <div class="input-box">
-                            <label for="horariotelas">Qual horário você deixa de usar telas?</label>
-                            <input type="time" id="horariotelas" name="horariotelas" required>
+                            <label for="horariotelas">Que horas você deixa de usar telas?</label>
+                            <input id="horariotelas" name="horariotelas" required>
                         </div>
                         <div class="input-box">
-                            <label for="horarioacordar">Qual horário você acorda?</label>
-                            <input type="time" id="horarioacordar" name="horarioacordar" required>
+                            <label for="horarioacordar">Que horas você acorda?</label>
+                            <input id="horarioacordar" name="horarioacordar" required>
                         </div>
                         <div class="input-box">
-                            <label for="inputemail">Email para contato:</label>
+                            <label for="inputemail">E-mail para contato:</label>
                             <input type="email" id="inputemail" name="inputemail" required>
                         </div>
                         <div class="input-box">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="gender-input">
                                 <input type="radio" id="others" name="gender">
-                                <label for="others">Outros</label>
+                                <label for="others">Outro</label>
                             </div>
                             <div class="gender-input">
                                 <input type="radio" id="none" name="gender">
@@ -82,8 +82,10 @@
                         </div>
                     </div>
                     <div class="submit-button">
-                        <input type="submit" value="Enviar">
+                        <input onclick="hora()" type="submit" value="Enviar">
                     </div>
+                    <div id="res"></div>
+                    <div id="tela"></div>
                 </form>
             </div>
             <div class="img-form">
