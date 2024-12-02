@@ -103,10 +103,11 @@ header div.menu {
 }
 .lista-conteudo ul li {
     background-color: #d8d7da;
-    padding: 40px 60px 40px 60px;
+    padding: 30px 60px 40px 60px;
     line-height: 2.2em;
     border-radius: 25px;
     margin-bottom: 3.5vw;
+    height: 5vw;
 }
 .lista-conteudo ul li p span {
     font-size: 2rem;
@@ -156,6 +157,9 @@ header div.menu {
     margin: 4vw 0 4vw 0;
     text-align: right;
 }
+.caixa2 .p-importancia {
+    margin-top: 2vw;
+}
 .caixa2 .p-importancia p {
     padding: 0 0 35px 0;
 }
@@ -186,6 +190,7 @@ header div.menu {
 }
 .section-doenças ul {
     display: flex;
+    justify-content: center;
 }
 .section-doenças #insonia {
     margin: 2vw 3vw 2vw 3vw;
@@ -196,6 +201,7 @@ header div.menu {
     text-align: center;
     padding: 2vw 2vw 2vw 2vw;
     border-radius: 20px;
+    width: 25%;
 }
 .section-doenças ul li h3 {
     font-size: 2.5rem;
@@ -275,7 +281,7 @@ header div.menu {
     margin: 0 0 0 2vw;
 }
 .questionario .img-form {
-    width: 35vw;
+    width: 33vw;
     height: 35vw;
     margin-top: 1vw;
 }
